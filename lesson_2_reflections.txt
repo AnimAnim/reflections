@@ -7,3 +7,6 @@ How is the staging area different from the working directory and the repository?
 	It holds what will be added to the next commit rather than the directory the .git is in or what git is recording.
 	It helps with changing what part of the we is consider part of the repository
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+	You can use git diff --staged before commiting to see what file have been changed and what changes have been made
