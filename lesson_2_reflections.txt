@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	you create a hidden .git file that git will track the repository with. Needed for git
